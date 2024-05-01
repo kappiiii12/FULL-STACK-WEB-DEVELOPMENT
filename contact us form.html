@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            
+         background-image: linear-gradient(to right, rgb(5, 188, 249) , rgb(238, 163, 238));
+
+        }
+        #box{
+            display: flex;
+            justify-content: center;
+            border: 2px solid;
+            align-items: center;
+            margin: 20%;
+            flex-direction: column;
+            background-color: white;
+         
+
+        }
+        #form{
+            display: flex;
+            align-items: center;
+            border: 1px solid;
+            margin: 2%;
+            width: 80%;
+            padding: 5px;
+            color: white;
+            background-image: linear-gradient(to left, rgb(5, 188, 249) , rgb(238, 163, 238));
+        }
+        section{
+          flex-direction: column;
+          padding: 5%;  
+        }
+        #k1{
+            margin: 2%;
+        }
+        #k2{
+            background-color: antiquewhite;
+            width: 200px;
+            margin: 5%;
+            border-radius: 2cm;
+        }
+        #k2 :hover{
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h1>contact us</h1>
+        <div id="form">
+            <section>
+        <input id="k1" type="text" value="first name">
+        <input id="k1" type="text" value="last name"> <br>
+        <input id="k1" type="text" value="email">
+        <input id="k1" type="text" value="website name"> 
+        <textarea name="comment" id="" cols="30" rows="10" value="comment"></textarea>
+    </section>
+        </div>
+        <input id="k2" type="button" value="submit">
+    </div>
+</body>
+</html>
